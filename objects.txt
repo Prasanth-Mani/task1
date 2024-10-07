@@ -1,0 +1,34 @@
+Understanding Objects and Their Internal Representation in JavaScript:
+                       
+                       JavaScript is a versatile and widely-used programming language, 
+                       especially popular for web development. One of its core features 
+                       is the object, a powerful data structure that allows for complex 
+                       data manipulation.
+                                       
+
+   What is an Object in JavaScript?
+
+                      At its core, an object is a collection of properties, where each property 
+                      is defined as a key-value pair. The key is a string (or Symbol), while the 
+                      value can be of any type, including numbers, strings, arrays, functions, or 
+                      even other objects.  
+
+    Internal Representation of Objects:
+
+                Understanding how JavaScript represents objects internally can deepen your comprehension 
+                of the language and help optimize your code.
+
+              1. Memory Allocation
+                           When an object is created, JavaScript allocates a certain amount of 
+                           memory for it. This memory allocation typically happens on the heap, 
+                           which is a region of memory used for dynamic allocation. The object’s 
+                           properties are stored in this memory space, allowing for efficient 
+                           retrieval and manipulation.
+
+              2. Property Keys and Values
+                            Internally, JavaScript objects are implemented as hash tables or dictionaries.
+                             Each property key is hashed to create a unique identifier, which allows for 
+                             fast access to the property values. Here’s a simplified view of how properties 
+                             are stored:
+
+                                                      

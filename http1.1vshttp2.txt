@@ -1,0 +1,16 @@
+Intro:
+     As the backbone of the web, the Hypertext Transfer Protocol (HTTP) is essential for transferring data between clients and servers.
+
+ 1. Multiplexing:
+             http1.1 - In HTTP/1.1, multiple requests and responses are sent over a single connection, but only one request can be processed at a time.
+
+             http2 - HTTP/2 introduces multiplexing, allowing multiple requests and responses to be sent simultaneously over a single connection.
+
+ 2. Connection Management:
+              http1.1 - HTTP/1.1 requires multiple connections for optimal performance, which can lead to increased latency and resource consumption on both the client and server sides.           
+
+              http2 - HTTP/2 reduces the number of connections needed by allowing multiple streams over a single connection.
+
+
+       Conclusion:       
+                As web developers, understanding these differences is crucial for optimizing website performance and ensuring a seamless experience for users. If you haven’t yet made the switch to HTTP/2, now is the time to consider the benefits it offers for your projects.
